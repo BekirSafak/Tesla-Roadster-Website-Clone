@@ -5,20 +5,231 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">k
+  <!-- Google Icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- AOS Animate On Scroll Library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-  <title>Complete Tesla Roadster Website CloneS</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Complete Tesla Roadster Website Clone</title>
 </head>
 
 <body>
 
+  <!-- Header Start -->
+  <header>
+    <!-- Nav Start -->
+    <nav class="navbar">
+      <a href="#">
+        <img class="brand" src="assets/logo.png" alt="">
+      </a>
+      <ul>
+        <li><a href="#">Model S</a></li>
+        <li><a href="#">Model 3</a></li>
+        <li><a href="#">Model X</a></li>
+        <li><a href="#">Model Y</a></li>
+        <li><a href="#">Solar Roof</a></li>
+        <li><a href="#">Solar Panel</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Account</a></li>
+        <li><span class="menuBTN">Menu</span></li>
+      </ul>
+      <span class="menuBTNmobile">
+        Menu
+      </span>
+    </nav>
+    <!-- Nav End -->
 
+    <!-- Sidebar Start -->
+    <nav class="sidebar">
+      <div class="closeBTN">
+        <span class="material-symbols-outlined">
+          close
+        </span>
+      </div>
+      <ul>
+        <li><a href="#">Model S</a></li>
+        <li><a href="#">Model 3</a></li>
+        <li><a href="#">Model X</a></li>
+        <li><a href="#">Model Y</a></li>
+        <li><a href="#">Solar Roof</a></li>
+        <li><a href="#">Solar Panels</a></li>
+        <li><a href="#">Existing Invertory</a></li>
+        <li><a href="#">Used Invertory</a></li>
+        <!-- <li><a href="#">Trade-In</a></li> -->
+        <li><a href="#">Test Drive</a></li>
+        <li><a href="#">Insurance</a></li>
+        <li><a href="#">Powerwall</a></li>
+        <li><a href="#">Commercial Energy</a></li>
+        <li><a href="#">Utilities</a></li>
+        <li><a href="#">Charging</a></li>
+        <!-- <li><a href="#">Find Us</a></li> -->
+        <!-- <li><a href="#">Support</a></li> -->
+        <li><a href="#">Investor Relations</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Account</a></li>
+        <li><a href="#">More</a></li>
+      </ul>
+    </nav>
+    <div class="sidebarBackdrop"></div>
+    <!-- Sidebar End -->
 
+    <div class="headerBody">
+      <h1 class="title">Roadster</h1>
+      <div>
+        <p>The quickest car in the world, with record-setting acceleration, range and performance</p>
+      </div>
+      <div class="stats">
+        <div>
+          <div class="gauge">
+            <img src="assets/speedometer.png">
+            <h2>1.9<span>s</span></h2>
+          </div>
+          <div>
+            <small>0-60 mph</small>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h2><span>+</span>250<span>mph</span></h2>
+          </div>
+          <div>
+            <small>Top Speed</small>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h2>620<span>s</span></h2>
+          </div>
+          <div>
+            <small>Range</small>
+          </div>
+        </div>
+        <a href="#" class="BTN">Reserve Now</a>
+      </div>
+      <a href="#" class="BTN mobileBTN">Reserve Now</a>
+      <div>
+        <a href="#video">
+          <img class="arrow" src="assets/arrow-down.svg" alt="">
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-- Header End -->
 
+  <!-- Sections Start -->
+  <section id="video">
+    <video autoplay muted loop data-aos="fade-up" data-aos-duration="1200">
+      <source src="assets/roadster-loop.mp4" type="video/mp4">
+    </video>
+  </section>
 
+  <section class="specs">
+    <ul>
+      <li>
+        <span>Base Specs</span>
+      </li>
+      <li>
+        <span>Acceleration 0-60 mph</span>
+        <span>1.9ss</span>
+      </li>
+      <li>
+        <span>Acceleration 0-100 mph</span>
+        <span>4.2s</span>
+      </li>
+      <li>
+        <span>Acceleration 1/4 mile</span>
+        <span>8.8s</span>
+      </li>
+      <li>
+        <span>Top Speed</span>
+        <span>Over 250mph</span>
+      </li>
+      <li>
+        <span>Wheel Torque</span>
+        <span>10,000 Nm</span>
+      </li>
+      <li>
+        <span>Mile Range</span>
+        <span>620 miles</span>
+      </li>
+      <li>
+        <span>Seating</span>
+        <span>4</span>
+      </li>
+      <li>
+        <span>Drive</span>
+        <span>All-Wheel-Drive</span>
+      </li>
+      <li>
+        <span>Base Reservation</span>
+        <span>$50,000</span>
+      </li>
+    </ul>
+  </section>
 
+  <section class="about">
+    <img src="assets/back.jpg" alt="" data-aos="fade-up" data-aos-duration="1200">
+    <div class="aboutText">
+      <h2>Designed for Performance and Areo Efficiency</h2>
+      <p>As an all-electric supercar, Roadster maximizes the potential of aerodynamic engineering with record setting
+        performance and efficiency.</p>
+    </div>
+  </section>
 
+  <section class="interior">
+    <img src="assets/interior.jpg" alt="" data-aos="fade-up" data-aos-duration="1200">
+    <div>
+      <h2>Interior</h2>
+      <p>The first supercar to set every performance record and still fit seating for four.</p>
+    </div>
+  </section>
+
+  <section class="roof">
+    <div class="bannerImg" data-aos="fade-up" data-aos-duration="1200"></div>
+    <div class="roofText" data-aos="fade-up" data-aos-duration="1200">
+      <h2>Glass Roof</h2>
+      <p>A lightweight, removable Glass Roof stores in the trunk for an open-air, convertible driving experience.</p>
+    </div>
+  </section>
+
+  <section class="iframeVideo">
+    <div style="padding:56.25% 0 0 0; position:relative;">
+      <iframe src="https://player.vimeo.com/video/249563752?=60746b212b&color=ff0303"
+        style="position: absolute;top: 0; left: 0; width: 100%; height: 100%;" frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"></iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <div class="action">
+      <p>Watch the Roadster Unveil - November 16, 2017</p>
+      <span class="line"></span>
+      <a href="#" class="BTN">Reserve Now</a>
+      <a href="#" class="BTN">Get Newsletter</a>
+    </div>
+  </section>
+  <!-- Sections End -->
+
+  <!-- Footer Start -->
+  <footer>
+    <ul>
+      <li><a href="#">Tesla &copy; 2022</a></li>
+      <li><a href="#">Privacy &amp: legal</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Carrers</a></li>
+      <li><a href="#">Get Newsletter</a></li>
+      <li><a href="#">Forums</a></li>
+      <li><a href="#">Locationss</a></li>
+    </ul>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- AOS Animate On Scroll Library -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
   <script src="js/main.js"></script>
 </body>
